@@ -1,0 +1,223 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+.header{
+    background-color:rgba(0, 0, 0, 0.9);
+    color: #fff;
+    padding: 15px;
+    box-sizing: border-box;
+    text-align: center;
+    position:sticky;
+    top:0px;
+    z-index: 1;
+}
+
+.header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header nav ul{
+    list-style-type: none;
+    display: flex;
+    gap: 10px;
+}
+.header nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+}
+.hero{
+    background:url("https://img.freepik.com/free-photo/night-sky-glows-with-iridescent-deep-space-generative-ai_188544-11285.jpg?w=1380&t=st=1697004702~exp=1697005302~hmac=327650831dd57b973ed1f118a055d4aa657c42fa993dbaa24c1644539dcee447");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width:100%;
+    height: 100vh;
+    display:flex;
+    /* flex-direction: row-reverse; */
+    justify-content: space-around;
+    align-items: center;
+
+}
+.hero .right{
+    color: rgb(255, 255, 255);
+    display: flex;
+    height: 60%;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 20px;
+    min-width: 50%;
+    padding:1em;
+}
+#img{
+    border-radius: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: white;
+}
+.hero .right h1{
+    font-size: 3em;
+    margin-bottom: 1em;
+ 
+}
+
+.hero .left{
+    display: flex;
+    justify-content: center;
+    min-width: 50%;
+}
+#about{
+    background: url("https://img.freepik.com/free-vector/abstract-galaxy-background_1199-247.jpg?w=1060&t=st=1697004843~exp=1697005443~hmac=1e5676a155d7d287c33e5742ceabec6a0ad28f9c34e62f31455f413309a172eb");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: grid;
+    color:white;
+    grid-template-columns: 1fr 1fr;
+    width:100%;
+    height:100vh;
+    place-items: center;
+}
+.about_info{
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content:start;
+    transition: all ease 0.3s;
+}
+.about_info:hover{
+    transform: scale(1.02);
+}
+#about .left {
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+
+}
+#about .left .section{
+    margin:1em;
+}
+#about .right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#about .right>*{
+    margin:1em;
+}
+#projects{
+    display: grid;
+    background:url("https://img.freepik.com/free-psd/banner-galaxy-abstract-background_47618-35.jpg?size=626&ext=jpg&ga=GA1.1.424596341.1696944315&semt=ais");
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: contain;
+    background-attachment: fixed;
+    /* grid-template-columns: 1fr 1fr; */
+    grid-template-columns: repeat(auto-fit,minmax(1rem,1fr));
+    width:100%;
+    height:100vh;
+    place-items: center;
+}
+
+.contact-icon{
+    color:white;
+    text-decoration: none;
+    position: fixed;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height:50px;
+    width: 50px;
+    border-radius: 40%;
+    background-color: rgb(16, 126, 195);
+    bottom:10px;
+    right:10px;
+}
+#form_group{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+.form_input{
+    width: 300px;
+    height: 35px;
+    border-radius: 8px;
+}
+#contact{
+    display:none;
+    position: fixed;
+    width:50%;
+    top:25%;
+    right:25%;
+    height:50vh;
+    background-color: rgba(0, 0, 0, 0.8)                                                                                                                                                                                                                                                                            ;
+    padding:10px;
+    border-radius: 1em;
+    color: #fff;
+    overflow: hidden;
+}
+.cancle{
+    position: absolute;
+    top:10px;
+    right:10px;
+}
+#contact h2{
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+#contact form{
+    width: 100%;
+    display: flex;
+    font: 2em;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+}
+#contact form a button{
+    height:2em;
+    width: 5em;
+    border-radius: 5px;
+    border: none;
+    outline: 2px solid black;
+    padding: 0.4rem;
+    font-weight: 600;
+    background-color: rgb(255, 0, 187);
+    transition: all ease 0.3s;
+}
+#contact form a button:hover{
+    transform: scale(1.1);
+    background-color: rgb(4, 213, 220);
+    color: white;
+}
+#contact a{
+    color:white;
+    text-decoration: none;
+}
+
+footer{
+    background:url("https://img.freepik.com/free-vector/realistic-galaxy-background_23-2148991322.jpg?w=1060&t=st=1697005008~exp=1697005608~hmac=6cf060aadc12d99277d2abf2cfb88ace974d1f8c0e5d6ed47b648d00dd1b7795");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 10vw;
+    display: flex;
+    color:white;
+    justify-content: center;
+    align-items: center;
+}
+

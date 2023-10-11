@@ -1,0 +1,132 @@
+<!-- FILEPATH: /e:/som/web_presentation/home.html -->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="pic.jpeg">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+</head>
+
+<body>
+    <header class="header">
+        <h1>My Portfolio</h1>
+        <nav id="navbar">
+            <div id="logo">
+                Home
+            </div>
+            <div id="navlinks">
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="hero">
+            <div class="right">
+                <h1>Faraz Attar</h1>
+                <div>
+                    👨‍🎓 Currently, a first-semester student at Gogte Institute of Technology, driven by a passion for
+                    programming and a hunger for knowledge in the world of technology. 🖥️
+
+                    🚀 Aspiring to make my mark in the tech industry, I'm constantly learning and honing my programming
+                    skills to develop innovative solutions to real-world problems. 💡
+
+                    💻 Proficient in [mention any programming languages or technologies you're skilled in], I'm excited
+                    to explore new challenges and collaborate with like-minded individuals on exciting projects.
+
+                    📚 When I'm not coding, you can find me exploring the latest developments in the tech world, reading
+                    about cutting-edge technologies, and participating in coding competitions.
+
+                    🌟 Let's connect and explore opportunities to learn, grow, and make a positive impact on the tech
+                    community together!
+                </div>
+            </div>
+            <div class="left">
+                <img src="pic.jpeg" width="70%" id="img">
+            </div>
+        </section>
+        <section id="about">
+            <div class="right about_info">
+                <h2>Highlights:</h2>
+                <li>Earned several medals and awards for exceptional performance in [specify the sport, e.g., swimming,
+                    tennis, soccer].</li>
+                <li>Led a local [mention the type of team or club, e.g., soccer team] to victory as captain, showcasing
+                    strong leadership skills.</li>
+                <li>Achieved personal bests in [specify the event, e.g., 100m sprint] and consistently improved over
+                    time.</li>
+                <li>Demonstrated exceptional teamwork and collaboration as part of the [mention a team name, e.g., "Blue
+                    Thunder"].</li>
+            </div>
+            <div class="left about_info" style="justify-items: start;">
+                <div class="section">
+                    <h2>University:</h2>
+                    <div class="sub-section"><b>University Name:</b> Gogte Institute of Technology</div>
+                    <div class="sub-section"><b>Location:</b> Belagavi, Karnataka, India</div>
+                    <div class="sub-section"><b>Years Attended: </b>2021-Present</div>
+                    <div class="sub-section"><b>Major: </b>Bachelor of Engineering (B.E.) in Computer Science</div>
+                    <div class="sub-section"><b>Expected Graduation:</b> 2025</div>
+                </div>
+                <div class="section">
+                    <h2>University:</h2>
+                    <div class="sub-section"><b>University Name:</b> Gogte Institute of Technology</div>
+                    <div class="sub-section"><b>Location:</b> Belagavi, Karnataka, India</div>
+                    <div class="sub-section"><b>Years Attended: </b>2021-Present</div>
+                    <div class="sub-section"><b>Major: </b>Bachelor of Engineering (B.E.) in Computer Science</div>
+                    <div class="sub-section"><b>Expected Graduation:</b> 2025</div>
+                </div>
+            </div>
+        </section>
+        <section id="projects">
+            <div>
+                carousel
+            </div>
+            <div>
+                change
+            </div>
+        </section>
+
+    </main>
+    <footer>
+        <p>&copy; 2021 My Portfolio</p>
+    </footer>
+    <a href="#" class="contact-icon" onclick="openContactForm()">
+        <span class="material-symbols-outlined">
+            mail
+        </span>
+    </a>
+
+    <section id="contact">
+        <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" onclick="closeContactForm()"
+                fill="currentColor" class="bi bi-x-square cancle" viewBox="0 0 16 16">
+                <path
+                    d="M14 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h12zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z" />
+                <path
+                    d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z" />
+            </svg></a>
+        <h2>Contact Me</h2>
+    <div >
+        <form method="post" action="" id="form_group">
+            <div><label for="name">Name:</label>
+                <input class="form_input" type="text" id="name" name="name" required>
+            </div>
+            <div><label for="email">Email:</label>
+                <input class="form_input" type="email" id="email" name="email" required>
+            </div>
+            <a href="#"><button type="submit">Send</button></a>
+        </form>
+    </div>
+    </section>
+    <script src="script.js">
+
+    </script>
+</body>
+
+</html>
