@@ -33,7 +33,7 @@ html{
     padding: 10px;
 }
 .hero{
-    background:url("https://img.freepik.com/free-photo/night-sky-glows-with-iridescent-deep-space-generative-ai_188544-11285.jpg?w=1380&t=st=1697004702~exp=1697005302~hmac=327650831dd57b973ed1f118a055d4aa657c42fa993dbaa24c1644539dcee447");
+    background:url("background3.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -74,7 +74,7 @@ html{
     min-width: 50%;
 }
 #about{
-    background: url("https://img.freepik.com/free-vector/abstract-galaxy-background_1199-247.jpg?w=1060&t=st=1697004843~exp=1697005443~hmac=1e5676a155d7d287c33e5742ceabec6a0ad28f9c34e62f31455f413309a172eb");
+    background: url("background.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -117,19 +117,27 @@ html{
     margin:1em;
 }
 #projects{
+    overflow: hidden;
+    padding-top:1rem;
     display: grid;
-    background:url("https://img.freepik.com/free-psd/banner-galaxy-abstract-background_47618-35.jpg?size=626&ext=jpg&ga=GA1.1.424596341.1696944315&semt=ais");
+    background:url("https://img.freepik.com/free-photo/night-sky-glows-with-iridescent-deep-space-generative-ai_188544-11285.jpg?w=1380&t=st=1697004702~exp=1697005302~hmac=327650831dd57b973ed1f118a055d4aa657c42fa993dbaa24c1644539dcee447");
     background-repeat: no-repeat;
     background-size: cover;
     object-fit: contain;
     background-attachment: fixed;
     /* grid-template-columns: 1fr 1fr; */
-    grid-template-columns: repeat(auto-fit,minmax(1rem,1fr));
+    gap:3rem;
+    grid-template-columns: repeat(auto-fit,minmax(18rem,1fr));
     width:100%;
     height:100vh;
     place-items: center;
 }
-
+card-body{
+    color:#fff;
+}
+card:onhover{
+    transform: scale(1.1);
+}
 .contact-icon{
     color:white;
     text-decoration: none;
@@ -210,11 +218,11 @@ html{
 }
 
 footer{
-    background:url("https://img.freepik.com/free-vector/realistic-galaxy-background_23-2148991322.jpg?w=1060&t=st=1697005008~exp=1697005608~hmac=6cf060aadc12d99277d2abf2cfb88ace974d1f8c0e5d6ed47b648d00dd1b7795");
+    background:url("background5.jpg");
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 10vw;
+    min-height: 5vw;
     display: flex;
     color:white;
     justify-content: center;
