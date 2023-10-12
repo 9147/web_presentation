@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>demo</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <style>
+    *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    .hero{
+      background: url("hero_background.jpg");
+      background-attachment: fixed;
+      color:white;
+      background-size: cover;
+      background-repeat:no-repeat ;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      width:100%;
+      height: 100vh;
+    }
+    .hero .left{
+      width: 50%;
+      padding:10px;
+      background-color: rgba(0, 0, 0, 0.721);
+      height:60%;
+      display: flex;
+      align-items: center;
+      border-radius: 20px;
+      justify-content: center;
+      flex-direction: column;
+    }
+    .hero .left h2{
+      font-size: 3rem;
+      margin-bottom: 1rem;
+    }
+    .hero .right{
+      display: flex;
+      justify-content: center;
+      width: 50%;
+    }
+    .hero .right img{
+      padding: 10px;
+      box-sizing: border-box;
+      border-radius: 20px;
+      background-color: white;
+    }
+    .project{
+      background: url("projects_background.jpg");
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+      height:100vh;
+      width:100%;
+      display:grid;
+      grid-template-columns: repeat(auto-fill,minmax(18rem,1fr));
+      grid-gap: 4rem;
+      place-items: center;
+    }
+    footer{
+      background: url("background5.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      height: 10vh;
+      color:white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  </style>
+</head>
+<body>
+
+  <section class="hero">
+    <div class="left">
+      <h2>Faraz Attar</h2>
+      <div>
+        👨‍🎓 Currently, a first-semester student at Gogte Institute of Technology, driven by a passion for
+                    programming and a hunger for knowledge in the world of technology. 🖥<br>
+
+                    🚀 Aspiring to make my mark in the tech industry, I'm constantly learning and honing my programming
+                    skills to develop innovative solutions to real-world problems. 💡<br>
+
+                    💻 Proficient in [mention any programming languages or technologies you're skilled in], I'm excited
+                    to explore new challenges and collaborate with like-minded individuals on exciting projects.<br>
+
+                    📚 When I'm not coding, you can find me exploring the latest developments in the tech world, reading
+                    about cutting-edge technologies, and participating in coding competitions.<br>
+
+                    🌟 Let's connect and explore opportunities to learn, grow, and make a positive impact on the tech
+                    community together!<br>
+      </div>
+    </div>
+    <div class="right">
+      <img src="pic.jpeg" width="70%" id="img">
+    </div>
+  </section>
+  <section class="project">
+    <div class="card" style="width: 18rem;background-color:#7b97af72;color:white">
+      <img src="background4.jpg" class="card-img-top" height="30vh" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Project title</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+    <div class="card" style="width: 18rem;background-color:#7b97af72;color:white">
+      <img src="background4.jpg" class="card-img-top" height="30vh" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Project title</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+    <div class="card" style="width: 18rem;background-color:#7b97af72;color:white">
+      <img src="background4.jpg" class="card-img-top" height="30vh" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Project title</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+    <div class="card" style="width: 18rem;background-color:#7b97af72;color:white">
+      <img src="background4.jpg" class="card-img-top" height="30vh" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Project title</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+    <div class="card" style="width: 18rem;background-color:#7b97af72;color:white">
+      <img src="background4.jpg" class="card-img-top" height="30vh" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Project title</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+    
+  </section>
+  <footer>
+    <p>&copy; 2021 My Portfolio</p>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>

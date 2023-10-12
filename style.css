@@ -33,7 +33,7 @@ html{
     padding: 10px;
 }
 .hero{
-    background:url("background3.jpg");
+    background:url("hero_background.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -74,7 +74,7 @@ html{
     min-width: 50%;
 }
 #about{
-    background: url("background.jpg");
+    background: url("about_background.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -120,7 +120,7 @@ html{
     overflow: hidden;
     padding-top:1rem;
     display: grid;
-    background:url("background6.jpg");
+    background:url("projects_background.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     object-fit: contain;
@@ -218,10 +218,7 @@ card:onhover{
 }
 
 footer{
-    background:url("background5.jpg");
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color: black;
     min-height: 5vw;
     display: flex;
     color:white;
